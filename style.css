@@ -41,7 +41,18 @@
     border-top: none;
     background-color: white;
 }
-.cat-img{
-    padding: 50px 30px;
-    border-radius: 10px 3px 20px 3px;
+.cat-underline{
+    height: 12px;
+    width: 100px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, yellow, orange);
+}
+.cat-bag, .cat-beauty, .cat-shoes{
+    padding: 25px 20px;
+}
+.cat-bag{
+    border-radius: 5px 15px 5px 40px;
+}
+.cat-beauty, .cat-shoes{
+    border-radius: 15px 5px 40px 5px;
 }
